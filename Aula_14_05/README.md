@@ -24,7 +24,6 @@ Em seguida, foi criado um arquivo JavaScript externo, chamado `script.js`, com o
 
 A chamada do arquivo JavaScript foi realizada no HTML por meio da tag:
 
-```html
 <script src="script.js" defer></script>
 
 O uso do atributo defer permite que o navegador carregue o JavaScript sem bloquear o carregamento da página, garantindo também que os elementos HTML já estejam disponíveis quando o script for executado.
