@@ -469,3 +469,12 @@ body:not(.dark-mode) #darkModeToggle {
 body:not(.dark-mode) #darkModeToggle:hover {
     background-color: #222222;
 }
+
+body.dark-mode a {
+    color: #66b3ff;
+}
+
+body.dark-mode a:hover {
+    color: #9fd0ff;
+    text-decoration: underline;
+}
