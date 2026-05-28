@@ -1,11 +1,7 @@
-const darkModeToggle = document.getElementById("darkModeToggle");
+document.addEventListener("DOMContentLoaded", () => {
+    const darkModeToggle = document.getElementById("darkModeToggle");
 
-darkModeToggle.addEventListener("click", function () {
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-        darkModeToggle.textContent = "☀️ Modo Claro";
-    } else {
-        darkModeToggle.textContent = "🌙 Modo Escuro";
-    }
+    darkModeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+    });
 });

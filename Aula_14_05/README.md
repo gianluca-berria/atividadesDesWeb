@@ -200,6 +200,20 @@ Além disso, a separação entre HTML, CSS e JavaScript deixou o projeto mais or
 
 ---
 
+## 12. Melhorias de UI/UX e Refatoração do CSS
+
+Durante o desenvolvimento do projeto, também foram realizadas melhorias voltadas para UI/UX (User Interface e User Experience), com o objetivo de tornar a navegação mais agradável, intuitiva e visualmente consistente.
+
+Foram feitas alterações no layout da navegação, estilização dos botões, alinhamento de elementos visuais e adaptação do sistema de troca de tema para uma interface mais moderna e minimalista.
+
+Além disso, os ícones e componentes visuais passaram a utilizar SVG, permitindo melhor qualidade visual, maior flexibilidade de estilização e melhor integração com o modo escuro.
+
+Também foi realizada a refatoração completa do arquivo CSS, removendo estilos redundantes, regras duplicadas e trechos obsoletos. A reorganização do código melhorou a legibilidade, manutenção e escalabilidade do projeto, além de reduzir conflitos entre seletores e propriedades sobrescritas.
+
+Essas alterações contribuíram para uma estrutura visual mais organizada, melhor responsividade da interface e uma experiência de uso mais fluida para o usuário.
+
+---
+
 ## Referências
 
 MDN WEB DOCS. EventTarget: addEventListener(). Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener. Acesso em: 14 maio 2026.
