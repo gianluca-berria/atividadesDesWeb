@@ -2,6 +2,9 @@
 * Gabriel Santana
 * Emmanuel Avelino
 
+# Publicado em:
+https://delightful-semifreddo-622e77.netlify.app/
+
 # Análise de semelhanças entre o projeto web e conceitos de frameworks front-end
 
 ## 1. Introdução
@@ -173,6 +176,11 @@ As semelhanças mais fortes são:
 
 Portanto, a análise mais adequada é afirmar que o projeto foi construído com tecnologias nativas da web, mas adota práticas e padrões visuais semelhantes aos encontrados em frameworks front-end modernos. Isso demonstra uma aproximação com a lógica de desenvolvimento usada nesses ecossistemas, ainda que sem dependência direta deles.
 
+## 10. Uso do ChatGPT
+Durante o desenvolvimento, o ChatGPT, ferramenta de inteligência artificial da OpenAI, foi utilizado como apoio técnico.
+
+A ferramenta auxiliou na organização do código, na explicação dos eventos, na revisão da lógica do JavaScript e na estruturação deste relatório.
+
 ## Fontes consultadas
 
 Material de aula: Desenvolvimento Web — Frameworks Front-end: Prototipagem Ágil com React, Angular e Vue.js.
@@ -188,3 +196,7 @@ https://getbootstrap.com/docs/5.3/getting-started/introduction/
 https://tailwindcss.com/docs/installation/using-vite
 
 https://alpinejs.dev/start-here
+
+https://www.netlify.com/
+
+OPENAI. ChatGPT. Disponível em: https://openai.com/pt-BR/chatgpt/. Acesso em: 22 maio 2026.
