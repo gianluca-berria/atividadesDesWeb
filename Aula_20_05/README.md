@@ -185,18 +185,18 @@ A ferramenta auxiliou na organização do código, na explicação dos eventos, 
 
 Material de aula: Desenvolvimento Web — Frameworks Front-end: Prototipagem Ágil com React, Angular e Vue.js.
 
-https://react.dev/reference/react
+REACT. **React reference overview**. React. Disponível em: https://react.dev/reference/react. Acesso em: 22 maio 2026.
 
-https://angular.dev/overview
+ANGULAR. **Angular overview**. Angular. Disponível em: https://angular.dev/overview. Acesso em: 22 maio 2026.
 
-https://vuejs.org/guide/introduction.html
+VUE.JS. **Introduction**. Vue.js. Disponível em: https://vuejs.org/guide/introduction.html. Acesso em: 22 maio 2026.
 
-https://getbootstrap.com/docs/5.3/getting-started/introduction/
+BOOTSTRAP. **Introduction**. Bootstrap. Disponível em: https://getbootstrap.com/docs/5.3/getting-started/introduction/. Acesso em: 22 maio 2026.
 
-https://tailwindcss.com/docs/installation/using-vite
+TAILWIND CSS. **Installing Tailwind CSS with Vite**. Tailwind CSS. Disponível em: https://tailwindcss.com/docs/installation/using-vite. Acesso em: 22 maio 2026.
 
-https://alpinejs.dev/start-here
+ALPINE.JS. **Start here**. Alpine.js. Disponível em: https://alpinejs.dev/start-here. Acesso em: 22 maio 2026.
 
-https://www.netlify.com/
+NETLIFY. **Netlify**. Netlify. Disponível em: https://www.netlify.com/. Acesso em: 22 maio 2026.
 
-OPENAI. ChatGPT. Disponível em: https://openai.com/pt-BR/chatgpt/. Acesso em: 22 maio 2026.
+OPENAI. **ChatGPT**. Disponível em: https://openai.com/pt-BR/chatgpt/. Acesso em: 22 maio 2026.
