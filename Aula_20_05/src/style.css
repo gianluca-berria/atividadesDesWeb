@@ -1,0 +1,336 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f4f4f4;
+color: #222;
+width: 100%;
+min-height: 100vh;
+line-height: 1.6;
+}
+
+header{
+width: 100%;
+background-color: #ffffff;
+border-bottom: 1px solid #dcdcdc;
+padding: 1.5% 0;
+}
+
+nav{
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+nav img{
+width: clamp(60px, 8%, 100px);
+height: auto;
+}
+
+nav a{
+flex: 1;
+min-width: 110px;
+text-align: center;
+text-decoration: none;
+color: #333;
+background-color: #fafafa;
+border: 1px solid transparent;
+border-radius: 0.5rem;
+padding: 0.8rem 1rem;
+transition: 0.3s;
+}
+
+nav a:hover{
+background-color: #ececec;
+border-color: #bbbbbb;
+}
+
+main{
+width: 90%;
+margin: 2% auto;
+background-color: #ffffff;
+border: 1px solid #dddddd;
+border-radius: 1rem;
+padding: 3%;
+overflow-x: auto;
+}
+
+.downloads-cards{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+gap: 2%;
+margin-bottom: 4%;
+}
+
+.download-card{
+flex: 1;
+text-decoration: none;
+color: #222;
+background-color: #fafafa;
+border: 1px solid #d8d8d8;
+border-radius: 1rem;
+padding: 2rem;
+transition: 0.3s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.download-card:hover{
+transform: translateY(-4px);
+box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+border-color: #999999;
+}
+
+.download-card h2{
+margin-bottom: 1rem;
+font-size: 1.5rem;
+}
+
+.download-card p{
+color: #555555;
+font-size: 1rem;
+}
+
+.windows{
+border-left: 6px solid #0078d7;
+}
+
+.linux{
+border-left: 6px solid #e67e22;
+}
+
+.mac{
+border-left: 6px solid #666666;
+}
+
+section{
+margin-bottom: 4%;
+}
+
+p{
+margin-bottom: 1rem;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 2rem;
+overflow-x: auto;
+}
+
+tr:nth-child(even){
+background-color: #fafafa;
+}
+
+th,
+td{
+border: 1px solid #d8d8d8;
+padding: 1rem;
+text-align: left;
+}
+
+th{
+background-color: #f0f0f0;
+font-weight: bold;
+}
+
+td a{
+color: #0066cc;
+text-decoration: none;
+}
+
+td a:hover{
+text-decoration: underline;
+}
+
+ul{
+width: 95%;
+margin: auto;
+margin-bottom: 2rem;
+}
+
+li{
+margin-bottom: 0.8rem;
+}
+
+footer{
+width: 100%;
+text-align: center;
+background-color: #ffffff;
+border-top: 1px solid #dddddd;
+padding: 2rem;
+font-size: 0.9rem;
+}
+
+#darkModeToggle{
+padding: 10px 15px;
+margin: 15px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#darkModeToggle svg{
+width: 24px;
+height: 24px;
+transition: 0.4s;
+}
+
+#darkModeToggle:hover svg{
+transform: rotate(180deg);
+}
+
+body.dark-mode,
+body.dark-mode header,
+body.dark-mode main,
+body.dark-mode footer{
+background-color: #121212 !important;
+color: #f1f1f1 !important;
+border-color: #444 !important;
+}
+
+body.dark-mode nav a,
+body.dark-mode td a{
+background-color: #1e1e1e;
+color: #66b3ff;
+border-color: #333;
+}
+
+body.dark-mode nav a:hover{
+background-color: #333;
+border-color: #66b3ff;
+}
+
+body.dark-mode table{
+background-color: #1e1e1e;
+border-color: #444;
+}
+
+body.dark-mode th{
+background-color: #2d2d2d;
+color: #fff;
+border-color: #444;
+}
+
+body.dark-mode td{
+border-color: #444;
+}
+
+body.dark-mode tr:nth-child(even){
+background-color: #252525;
+}
+
+body.dark-mode .download-card{
+background-color: #1e1e1e;
+color: #f1f1f1;
+border-color: #333;
+}
+
+body.dark-mode .download-card p{
+color: #bbb;
+}
+
+body.dark-mode hr{
+border-color: #333;
+opacity: 0.3;
+}
+
+body.dark-mode #darkModeToggle{
+background-color: #000000;
+color: #ffffff;
+border: 1px solid #000000;
+}
+
+body.dark-mode a{
+color: #66b3ff;
+}
+
+body.dark-mode a:hover{
+color: #9fd0ff;
+text-decoration: underline;
+}
+
+#windowsIcon{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.titulo-so{
+text-align: center;
+}
+
+@media (max-width: 1024px){
+nav{
+gap: 0.8rem;
+}
+
+nav a{
+min-width: 140px;
+}
+
+th,
+td{
+padding: 0.8rem;
+}
+}
+
+@media (max-width: 768px){
+main{
+width: 95%;
+}
+
+.downloads-cards{
+flex-direction: column;
+}
+
+nav{
+flex-direction: column;
+}
+
+nav a{
+width: 100%;
+}
+
+.download-card{
+width: 100%;
+}
+
+table{
+font-size: 0.9rem;
+}
+}
+
+@media (max-width: 480px){
+body{
+font-size: 0.9rem;
+}
+
+table{
+font-size: 0.75rem;
+}
+
+th,
+td{
+padding: 0.6rem;
+}
+
+footer{
+font-size: 0.75rem;
+}
+}
